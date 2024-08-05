@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 import Favicon from "../../public/favicon.ico";
-import Navigation from '@/app/components/Navigation'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,8 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navigation/>
+      <body className={`${inter.className} h-screen  bg-[#070b13]`}>
         {children}
         </body>
     </html>

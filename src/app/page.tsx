@@ -1,9 +1,16 @@
 import Image from "next/image";
-import Intro from '../app/components/Intro'
+import Intro from "../app/components/Intro";
+import Navigation from "./components/Navigation";
+
 export default function Home() {
   return (
-    <div className="bg-[#0D1321] h-screen flex flex-col items-center justify-center">
-      <Intro/>
+    <div className="h-full flex flex-col relative">
+      <div className="fixed top-0 w-full z-50">
+        <Navigation />
+      </div>
+      <div className="">
+        <Intro />
+      </div>
     </div>
   );
 }

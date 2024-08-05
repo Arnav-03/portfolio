@@ -24,3 +24,11 @@
     font-style: normal;
   }
   
+  .shiny-border {
+    display: flex;
+    justify-content: space-between;
+    color: #9CAF88;
+    border-bottom: 1px solid #9CAF88;
+    box-shadow: 0 0 5px #9CAF88, 0 0 5px #9CAF88, 0 0 10px #9CAF88, 0 0 15px #9CAF88;
+}
+
