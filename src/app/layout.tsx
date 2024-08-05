@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Favicon from "../../public/favicon.ico";
+import Navigation from "./components/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,8 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} h-screen  bg-[#070b13]`}>
-        {children}
+      <body className={`${inter.className}  relative  bg-[#070b13]`}>
+      <div className="fixed top-0 w-full z-50">
+        <Navigation />
+      </div>
+      <div className="">
+      {children}
+      </div>
         </body>
     </html>
   );
