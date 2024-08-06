@@ -29,23 +29,24 @@
     font-weight: 400;
     font-style: normal;
   }
-  .job {
-    font-family: "Arsenal SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 
   .job2 {
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
   }
   .shiny-border {
     display: flex;
     justify-content: space-between;
-    color: #9CAF88;
-    border-bottom: 1px solid #9CAF88;
-    box-shadow: 0 0 5px #9CAF88, 0 0 5px #9CAF88, 0 0 10px #9CAF88, 0 0 15px #9CAF88;
+    color: #e9e3d5;
+    border-bottom: 1px solid #e9e3d5;
+    box-shadow: 0 0 3px #e9e3d5, 0 0 4px #e9e3d5, 0 0 5px #e9e3d5, 0 0 7px #e9e3d5;
 }
+.back{
+ background-color: #01141b;
 
+}
+.colo{
+  color: #e9e3d5;
+}

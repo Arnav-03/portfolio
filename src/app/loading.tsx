@@ -7,5 +7,5 @@ const cookie = Cookie({
 
 export default function Loading() {
 
-  return <p className={`${cookie.className} text-[#9CAF88] text-5xl h-screen m-auto text-center flex items-center justify-center `}>Loading...</p>
+  return <p className={`${cookie.className} text-[#e9e3d5] text-5xl h-screen m-auto text-center flex items-center justify-center `}>Loading...</p>
 }

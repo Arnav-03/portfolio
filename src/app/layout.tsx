@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}  relative  bg-[#070b13]`}>
+      <body className={`${inter.className}  relative back`}>
       <div className="fixed top-0 w-full z-50">
         <Navigation />
       </div>
