@@ -3,6 +3,11 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Favicon from "../../public/favicon.ico";
 import Navigation from "./components/Navigation";
+import Link from "./components/Link";
+import github from "../../public/github1.png";
+import linkedin from "../../public/linkedin1.png";
+import email from "../../public/email1.png";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,13 +24,34 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className}  relative back`}>
-      <div className="fixed top-0 w-full z-50">
-        <Navigation />
-      </div>
-      <div className="">
-      {children}
-      </div>
-        </body>
+        <div className="fixed top-0 w-full z-50">
+          <Navigation />
+        </div>
+        <div className="">{children}</div>
+        <div className="flex flex-col">
+          <div className="text-[#e9e3d5] fixed right-0  top-2/3 transform -translate-y-1/2 nametitle text-2xl z-10 back">
+            <Link
+              image={linkedin}
+              link="https://www.linkedin.com/in/arnavarora3/"
+              name="LinkedIn"
+            />
+          </div>
+          <div className="text-[#e9e3d5] fixed right-0  mt-[65px]  top-2/3 transform -translate-y-1/2 nametitle text-2xl z-10 back">
+            <Link
+              image={github}
+              link="https://github.com/Arnav-03"
+              name="Github"
+            />
+          </div>
+          <div className="text-[#e9e3d5] fixed right-0 mt-[130px]  top-2/3 transform -translate-y-1/2 nametitle text-2xl z-10 back">
+            <Link
+              image={email}
+              link="mailto:arnavarora0003@gmail.com"
+              name="Email"
+            />
+          </div>
+        </div>
+      </body>
     </html>
   );
 }

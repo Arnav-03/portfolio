@@ -13,16 +13,16 @@ const links = [
 ];
 
 function Navigation() {
-  const [showmenu, setmenu] = useState(false); // Set initial state to false
+  const [showmenu, setmenu] = useState(false); 
 
   return (
     <>
-      <div className="back py-4 px-3 md:px-5 shiny-border flex justify-between overflow-hidden colo nametitle text-2xl md:text-3xl items-center min-h-[75px] max-h-[75px]">
+      <div className="back py-4 px-3 md:px-5 shiny-border flex justify-between overflow-hidden colo nametitle text-2xl  lg:text-3xl items-center min-h-[75px] max-h-[75px]">
         <div className="">Arnav Arora</div>
         <div onClick={() => setmenu(!showmenu)} className="md:hidden cursor-pointer">
           <Image src={showmenu ? cross : menu} height={40} alt="menu" />
         </div>
-        <div className="md:flex gap-[40px] text-2xl hidden">
+        <div className="md:flex gap-[40px] text-xl lg:text-2xl  hidden">
           {links.map((link, index) => (
             <Link key={index} href={link.link} className="cursor-pointer">&lt;{link.name}/&gt;</Link>
           ))}

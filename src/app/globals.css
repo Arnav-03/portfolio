@@ -14,7 +14,7 @@
   
 .nametitle {
     font-family: "Lilita One", sans-serif;
-    font-weight: 400;
+    font-weight: 400; 
     font-style: normal;
 }
 
@@ -49,4 +49,30 @@
 }
 .colo{
   color: #e9e3d5;
+}
+
+.link-container {
+  display: flex;
+  border: 2px solid #e9e3d5;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.link-text {
+  display: flex;
+  align-items: center;
+  min-width: 110px;
+  border-right: 2px solid #e9e3d5;
+  padding: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.link-container:hover .link-text {
+  transform: translateX(1rem); /* Adjust value as needed */
+}
+
+.link-image {
+  margin: 0.5rem;
 }
