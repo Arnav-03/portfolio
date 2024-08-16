@@ -30,7 +30,6 @@ function Navigation() {
       </div>
       <div className="h-[1px] shiny-border bg-white"></div>
 
-      {/* Full-Screen Menu */}
       {showmenu && (
         <div className="fixed h-full top-[85px]  w-full  back colo flex flex-col items-center justify-center text-center text-2xl md:hidden">
           <div className="flex flex-col mt-[-75px] gap-8 w-4/5 ">

@@ -12,7 +12,7 @@ const SocialLink: React.FC<LinkProps> = ({ link, image, name }) => {
   const [showname, setShowname] = useState("");
 
   return (
-    <div className="flex border-2 rounded  border-[#e9e3d5] ">
+    <div className=" flex border-2 rounded  border-[#e9e3d5] ">
       <div
         onMouseEnter={() => setShowname(name)}
         onMouseLeave={() => setShowname("")}
@@ -23,7 +23,7 @@ const SocialLink: React.FC<LinkProps> = ({ link, image, name }) => {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className={`border-r-2 m-2 mr-0 p-2 min-w-[110px] border-[#e9e3d5] ${
+          className={`border-r-2 m-2 mr-0 p-2 underline min-w-[110px] border-[#e9e3d5] ${
             showname === name ? "" : "hidden "
           }`}
         >
