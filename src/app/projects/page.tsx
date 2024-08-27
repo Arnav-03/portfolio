@@ -1,12 +1,7 @@
 import React from "react";
-import Card from "./Card";
 import Image from "next/image";
-import Link from "next/link";
 import arrow from "../../../public/arrow.png";
-import kashi from "../../../public/kashi.PNG";
-import shop from "../../../public/shopkrow.PNG";
-import fileophile from "../../../public/fileophile.PNG";
-import peermeet from "../../../public/peermeet.PNG";
+
 
 function page() {
   const projects = [
@@ -15,7 +10,7 @@ function page() {
       link: "https://kashitokaru.onrender.com/",
       tags: ["React", "Websocket", "Gemini API", "MongoDb", "Express"],
       desc: "Kashitokaru is a dynamic chat application offering real-time messaging, file sharing, and AI-powered smart replies. It integrates Google Sign-In and ensures seamless communication with a modern, responsive interface.",
-      image: kashi,
+      image: "https://firebasestorage.googleapis.com/v0/b/fileshare-60268.appspot.com/o/Fileophile%2Farnavarora0003gmail%2Fkashi.PNG?alt=media&token=80e23e72-51a1-4a38-a203-2eb3cd4193e0",
     },
     {
       title: "ShopKrow",
@@ -28,14 +23,14 @@ function page() {
         "Google Cloud Platform",
       ],
       desc: "ShopKrow is an e-commerce platform built with React and Tailwind CSS, featuring Stripe integration for secure payments and dynamic product pages. It offers optimized performance through dynamic content delivery, providing a seamless shopping experience.",
-      image: shop,
+      image: "https://firebasestorage.googleapis.com/v0/b/fileshare-60268.appspot.com/o/Fileophile%2Farnavarora0003gmail%2Fshopkrow.PNG?alt=media&token=b6534512-8208-4c07-bdd9-a9aef0c17650",
     },
     {
       title: "Fileophile",
       link: "https://fileophile.vercel.app/ ",
       tags: ["Next.js", "Firebase", "Tailwind CSS", "Google Cloud Platform"],
       desc: "Fileophile is a user-friendly platform designed for seamless file sharing and storage. With features like real-time sharing, cloud storage, and easy integration with Google authentication, Fileophile ensures that your files are always at your fingertips.",
-      image: fileophile,
+      image: "https://firebasestorage.googleapis.com/v0/b/fileshare-60268.appspot.com/o/Fileophile%2Farnavarora0003gmail%2Fpeermeet.PNG?alt=media&token=b7240f30-ba60-4e1e-8b5e-fe28af75b8ff",
     },
     ,
     {
@@ -43,7 +38,7 @@ function page() {
       link: "https://peermeet.onrender.com/",
       tags: ["React","WebRTC", "Tailwind CSS", "Socket.io"],
       desc: "PeerMeet is a video calling platform for seamless one-to-one interactions. Using WebRTC for high-quality, real-time communication and built with React and Tailwind CSS, it provides a sleek, responsive interface with smooth performance.",
-      image: peermeet,
+      image: "https://firebasestorage.googleapis.com/v0/b/fileshare-60268.appspot.com/o/Fileophile%2Farnavarora0003gmail%2Ffileophile.PNG?alt=media&token=cac4e773-295c-4a18-8e67-abb419bb1330",
     },
   ];
 
@@ -59,7 +54,7 @@ function page() {
             <div>
               <img
                 className="h-[150px] w-auto object-cover"
-                src={project?.image.src}
+                src={project?.image}
                 alt=""
               />
             </div>
