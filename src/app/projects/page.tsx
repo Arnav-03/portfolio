@@ -30,7 +30,8 @@ function page() {
       link: "https://fileophile.vercel.app/ ",
       tags: ["Next.js", "Firebase", "Tailwind CSS", "Google Cloud Platform"],
       desc: "Fileophile is a user-friendly platform designed for seamless file sharing and storage. With features like real-time sharing, cloud storage, and easy integration with Google authentication, Fileophile ensures that your files are always at your fingertips.",
-      image: "https://firebasestorage.googleapis.com/v0/b/fileshare-60268.appspot.com/o/Fileophile%2Farnavarora0003gmail%2Fpeermeet.PNG?alt=media&token=b7240f30-ba60-4e1e-8b5e-fe28af75b8ff",
+      image: "https://firebasestorage.googleapis.com/v0/b/fileshare-60268.appspot.com/o/Fileophile%2Farnavarora0003gmail%2Ffileophile.PNG?alt=media&token=cac4e773-295c-4a18-8e67-abb419bb1330",
+    
     },
     ,
     {
@@ -38,7 +39,7 @@ function page() {
       link: "https://peermeet.onrender.com/",
       tags: ["React","WebRTC", "Tailwind CSS", "Socket.io"],
       desc: "PeerMeet is a video calling platform for seamless one-to-one interactions. Using WebRTC for high-quality, real-time communication and built with React and Tailwind CSS, it provides a sleek, responsive interface with smooth performance.",
-      image: "https://firebasestorage.googleapis.com/v0/b/fileshare-60268.appspot.com/o/Fileophile%2Farnavarora0003gmail%2Ffileophile.PNG?alt=media&token=cac4e773-295c-4a18-8e67-abb419bb1330",
+      image: "https://firebasestorage.googleapis.com/v0/b/fileshare-60268.appspot.com/o/Fileophile%2Farnavarora0003gmail%2Fpeermeet.PNG?alt=media&token=b7240f30-ba60-4e1e-8b5e-fe28af75b8ff",
     },
   ];
 
