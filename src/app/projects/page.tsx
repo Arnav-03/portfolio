@@ -65,7 +65,7 @@ function page() {
             </div>
             <div className="flex job2 p-2  flex-wrap gap-2">
               {project?.tags.map((tag) => (
-                <div className="inline-block bg-gray-600  rounded-lg bg-muted px-3 py-1 text-sm">
+                <div key={tag} className="inline-block bg-gray-600  rounded-lg bg-muted px-3 py-1 text-sm">
                   {tag}
                 </div>
               ))}
