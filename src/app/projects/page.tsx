@@ -3,11 +3,10 @@ import Card from "./Card";
 import Image from "next/image";
 import Link from "next/link";
 import arrow from "../../../public/arrow.png";
-import kashi from "../../../public/kashi.png";
-import shop from "../../../public/shopKrow.png";
-import fileophile from "../../../public/fileophile.png";
-import peermeet from "../../../public/peermeet.png";
-import bakery from "../../../public/bakery.png";
+import kashi from "../../../public/kashi.PNG";
+import shop from "../../../public/shopKrow.PNG";
+import fileophile from "../../../public/fileophile.PNG";
+import peermeet from "../../../public/peermeet.PNG";
 
 function page() {
   const projects = [
@@ -33,7 +32,7 @@ function page() {
     },
     {
       title: "Fileophile",
-      link: "https://fileophile.vercel.app/",
+      link: "https://fileophile.vercel.app/ ",
       tags: ["Next.js", "Firebase", "Tailwind CSS", "Google Cloud Platform"],
       desc: "Fileophile is a user-friendly platform designed for seamless file sharing and storage. With features like real-time sharing, cloud storage, and easy integration with Google authentication, Fileophile ensures that your files are always at your fingertips.",
       image: fileophile,
