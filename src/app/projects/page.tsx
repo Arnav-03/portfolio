@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import arrow from "../../../public/arrow.png";
 import kashi from "../../../public/kashi.PNG";
-import shop from "../../../public/shopKrow.PNG";
+import shop from "../../../public/shopkrow.PNG";
 import fileophile from "../../../public/fileophile.PNG";
 import peermeet from "../../../public/peermeet.PNG";
 
