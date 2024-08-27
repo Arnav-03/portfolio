@@ -13,14 +13,14 @@ function page() {
   const projects = [
     {
       title: "Kashitokaru",
-      link: "/projects/kashitokaru",
+      link: "https://kashitokaru.onrender.com/",
       tags: ["React", "Websocket", "Gemini API", "MongoDb", "Express"],
       desc: "Kashitokaru is a dynamic chat application offering real-time messaging, file sharing, and AI-powered smart replies. It integrates Google Sign-In and ensures seamless communication with a modern, responsive interface.",
       image: kashi,
     },
     {
       title: "ShopKrow",
-      link: "/projects/shopkrow",
+      link: "https://shopkrow.onrender.com/",
       tags: [
         "React",
         "Express",
@@ -33,7 +33,7 @@ function page() {
     },
     {
       title: "Fileophile",
-      link: "/projects/kashitokaru",
+      link: "https://fileophile.vercel.app/",
       tags: ["Next.js", "Firebase", "Tailwind CSS", "Google Cloud Platform"],
       desc: "Fileophile is a user-friendly platform designed for seamless file sharing and storage. With features like real-time sharing, cloud storage, and easy integration with Google authentication, Fileophile ensures that your files are always at your fingertips.",
       image: fileophile,
@@ -41,7 +41,7 @@ function page() {
     ,
     {
       title: "PeerMeet",
-      link: "/projects/kashitokaru",
+      link: "https://peermeet.onrender.com/",
       tags: ["React","WebRTC", "Tailwind CSS", "Socket.io"],
       desc: "PeerMeet is a video calling platform for seamless one-to-one interactions. Using WebRTC for high-quality, real-time communication and built with React and Tailwind CSS, it provides a sleek, responsive interface with smooth performance.",
       image: peermeet,
@@ -79,6 +79,7 @@ function page() {
             </div>
             <div className="w-full flex justify-end px-4 mt-auto">
               <a
+                target="_blank"
                 href={project?.link}
                 className="bg-[#e9e3d5] job mx-5 mb-2 text-lg flex gap-1 items-center text-[#252525] w-fit p-1.5 rounded"
               >
